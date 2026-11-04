@@ -1,0 +1,56 @@
+﻿# Local PowerShell scripts
+*.ps1
+
+# Local test scratch pages & dumps
+test_*.html
+frag_*.html
+shot_*.html
+auto_open_test.html
+burgundy_test.html
+click_verify.html
+couple_debug.html
+couple_only_test.html
+couple_test.html
+dom_test.html
+hero_test.html
+legacy_test.html
+live_dom.html
+live_flow_test.html
+live_rendered_dump.html
+standalone_*.html
+sync_verify.html
+v1.html
+v2.html
+v3.html
+verify_*.html
+
+# Dump text files & scraper artifacts
+*.txt
+profile_details.json
+event_data.json
+aamantran.*
+aamantran_*
+app.js
+main-*.js
+polyfills-*.js
+exact_original.css
+styles.css
+t4_couple_rules.css
+svg_*.svg
+hands_illustration.svg
+theme4-couple-section-decor.png
+
+# Root preview screenshots
+*.png
+!assets/**
+
+# Local hostinger output & archives
+royal-wedding-hostinger/
+royal-wedding-hostinger.zip
+*.zip
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
