@@ -323,8 +323,8 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => confettiWrapper.remove(), 1000);
   }
 
-  // --- 5. Countdown Timer (Target: Nov 20, 2026) ---
-  const targetTime = new Date('2026-11-20T00:00:00').getTime();
+  // --- 5. Countdown Timer (Target: Nov 22, 2026 11:00 AM) ---
+  const targetTime = new Date('2026-11-22T11:00:00').getTime();
   const daysEl = document.getElementById('timer-days');
   const hoursEl = document.getElementById('timer-hours');
   const minutesEl = document.getElementById('timer-minutes');
