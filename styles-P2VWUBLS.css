@@ -1322,3 +1322,63 @@ body.envelope-active {
   display: inline-block;
   line-height: 1;
 }
+
+/* ==========================================================================
+   HIGH-CONTRAST ROYAL BURGUNDY CELEBRATIONS CARD TYPOGRAPHY
+   ========================================================================== */
+.celebrations-section .celebration-card-container .event-card .event-overlay .event-content {
+  text-shadow: none !important;
+}
+
+.celebrations-section .celebration-card-container .event-card .event-overlay .event-content .event-title-cursive {
+  color: #49130e !important;
+  font-weight: 400 !important;
+  text-shadow: 0 2px 10px rgba(255, 255, 255, 0.95), 0 0 16px rgba(255, 255, 255, 0.9) !important;
+}
+
+.celebrations-section .celebration-card-container .event-card .event-overlay .event-content .event-date-line {
+  color: #3b0f0b !important;
+  font-weight: 600 !important;
+  text-shadow: 0 1px 4px rgba(255, 255, 255, 0.95), 0 0 8px rgba(255, 255, 255, 0.9) !important;
+}
+
+.celebrations-section .celebration-card-container .event-card .event-overlay .event-content .event-date-line .date-big {
+  color: #49130e !important;
+  font-weight: 700 !important;
+  text-shadow: 0 2px 6px rgba(255, 255, 255, 0.95) !important;
+}
+
+.celebrations-section .celebration-card-container .event-card .event-overlay .event-content .event-date-line .divider {
+  color: #49130e !important;
+  opacity: 0.7 !important;
+}
+
+.celebrations-section .celebration-card-container .event-card .event-overlay .event-content .event-date-line .date-big:before,
+.celebrations-section .celebration-card-container .event-card .event-overlay .event-content .event-date-line .date-big:after {
+  color: #49130e !important;
+  opacity: 0.7 !important;
+}
+
+.celebrations-section .celebration-card-container .event-card .event-overlay .event-content .event-time {
+  color: #3b0f0b !important;
+  font-weight: 700 !important;
+  text-shadow: 0 1px 4px rgba(255, 255, 255, 0.95) !important;
+}
+
+.celebrations-section .celebration-card-container .event-card .event-overlay .event-content .event-divider-line {
+  background: #49130e !important;
+  opacity: 0.6 !important;
+}
+
+.celebrations-section .celebration-card-container .event-card .event-overlay .event-content .event-theme {
+  color: #49130e !important;
+  font-weight: 400 !important;
+  font-size: 2.2rem !important;
+  text-shadow: 0 1px 6px rgba(255, 255, 255, 0.95), 0 0 10px rgba(255, 255, 255, 0.8) !important;
+}
+
+.legacy-indicators {
+  flex-wrap: wrap !important;
+  max-width: 90% !important;
+  margin: 30px auto 0 !important;
+}
